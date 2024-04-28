@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/animalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Хитрый лис"
+        android:textColor="@color/blue"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/animalImage"
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/lisa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Это был он?"
+        android:textColor="@color/blue"
+        android:textSize="16dp" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="onClick"
+        android:text="ДА"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="onClick"
+        android:text="НЕТ"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+</LinearLayout>

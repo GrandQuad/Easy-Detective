@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sherlock</string>
+    <string name="yesBtnY">Да, верно, это был %s</string>
+    <string name="yesBtn">Нет, это не %s</string>
+    <string name="noBtnN">Нет, это был %s</string>
+    <string name="noBtn">Верно, это не %s</string>
+</resources>
