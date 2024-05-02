@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sherlock</string>
+    <string name="yesBtnY">Yeah, that\'s right, it was %s</string>
+    <string name="yesBtn">No, it\'s not %s</string>
+    <string name="noBtnN">No, it was %s</string>
+    <string name="noBtn">That\'s right, it\'s not %s</string>
+</resources>

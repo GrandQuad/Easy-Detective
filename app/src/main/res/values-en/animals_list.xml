@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animaList">
+        <item>Sly fox</item>
+        <item>Happy doggy</item>
+        <item>Vaska the cat</item>
+
+    </string-array>
+</resources>

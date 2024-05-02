@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.detektiv_laba4"
-        minSdk = 34
+        minSdk = 33
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
